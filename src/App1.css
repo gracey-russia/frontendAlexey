@@ -1,0 +1,207 @@
+
+  
+  .line{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .App-logomain1 {
+    color: #304299;
+    font-family:'Enthalpy298';
+    font-size:14.5vw;
+    max-width: 450px;
+  }
+  .App-logomain2 {
+    color: #99CAFF;
+    font-family:'Enthalpy298';
+    font-size:14.5vw;
+    max-width: 450px;
+  }
+  .App-textsmall {
+    
+    font: Inter;
+    text-align: center;
+    font-weight: 400;
+    
+    gap: Radius/M;
+    color: #292929;
+    margin-bottom: 10px;
+    font-size: 12px;
+    
+    display: flex;
+    justify-content: center;
+    letter-spacing: -0.32;
+  }
+  .sorr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .heartkit {
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    width: 75vw;
+    max-width: 440px;
+    height: 4vh;
+    margin-top: 10px;
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    max-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    transition: 0.3s;
+    border: 1px solid;
+    color: #FFFFFF;
+    border-color: #304299;
+    border-radius: 8px;
+    background-color: #304299;
+  } 
+  .buttonbig {
+    width: 75vw;
+    
+    height: 15vh;
+    
+    margin-top: 15px;
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid;
+    color: #000000;
+    border-color: #304299;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    position: relative;
+  } 
+  .buttonsmall {
+    width: 65vw;
+    
+    height: 12vh;
+    
+    margin-top: 15px;
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #000000;
+    border-radius:8px;
+    background-color: #F5F5F5;
+  } 
+  .buttonmainsmall {
+    width: 75vw;
+    
+    height: 12vh;
+    
+    margin-top: 15px;
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #000000;
+    border-radius:8px;
+    background-color: #F5F5F5;
+  }
+  .pin {
+    
+    cursor: pointer;
+    position: relative;
+    left: -39vw;
+    top: calc(32px + 4vw);
+    border: 1px solid;
+    color: #000000;
+    border-color: #000000;
+    border-radius:50%;
+    background-color: #F5F5F5;
+  } 
+  .App {
+    height: 100vh;
+    overflow-y: scroll;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .App-text {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: 600;
+    color: #292929;
+  }
+
+
+.button{
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    color: #000000;
+    border-color: #000000;
+    border-radius:50%;
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    gap:10px;
+    
+}
+.App-textsmall2 {
+    
+  font: Inter;
+  text-align: center;
+  font-weight: 400;
+  
+  gap: Radius/M;
+  color: #292929;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  
+  display: flex;
+  justify-content: center;
+  letter-spacing: -0.32;
+}
