@@ -7,26 +7,28 @@
     justify-content: center;
     cursor: pointer;
   }
-  .App-logomain1 {
-    color: #304299;
+  .logo-text{
+    color: var(--primary-color);
     font-family:'Enthalpy298';
     font-size:14.5vw;
-    
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
   }
-  .App-logomain2 {
-    color: #99CAFF;
-    font-family:'Enthalpy298';
-    font-size:14.5vw;
-    
+  .blue{
+    color: var(--logo-second-color);
   }
-  .App-textsmall {
+
+  .App-textSmall {
     
     font: Inter;
     text-align: center;
     font-weight: 400;
     
     gap: Radius/M;
-    color: #292929;
+    color: var(--black-text);
     margin-bottom: 10px;
     font-size: 12px;
     
@@ -41,7 +43,7 @@
     justify-content: center;
     cursor: pointer;
   }
-  .heartkit {
+  .heart_kit {
     width: 20px;
     display: flex;
     flex-direction: column;
@@ -67,12 +69,12 @@
     
     transition: 0.3s;
     border: 1px solid;
-    color: #FFFFFF;
-    border-color: #304299;
+    color: var(--secondary-color);
+    border-color: var(--primary-color);
     border-radius: 8px;
-    background-color: #304299;
+    background-color: var(--primary-color);
   } 
-  .buttonbig {
+  .buttonBig {
     width: 75vw;
     max-width: 440px;
     height: 15vh;
@@ -90,13 +92,13 @@
     cursor: pointer;
     transition: 0.3s;
     border: 1px solid;
-    color: #000000;
-    border-color: #304299;
+    color: var(--black-text);
+    border-color: var(--primary-color);
     border-radius: 8px;
-    background-color: #FFFFFF;
+    background-color: var(--secondary-color);
     position: relative;
   } 
-  .buttonsmall {
+  .buttonSmall {
     width: 65vw;
     max-width: 400px;
     height: 12vh;
@@ -113,11 +115,11 @@
     justify-content: center;
     cursor: pointer;
     transition: 0.3s;
-    color: #000000;
+    color: var(--black-text);
     border-radius:8px;
-    background-color: #F5F5F5;
+    background-color: var(--non-active-button);
   } 
-  .buttonmainsmall {
+  .buttonMainSmall {
     width: 75vw;
     max-width: 440px;
     height: 12vh;
@@ -134,27 +136,15 @@
     justify-content: center;
     cursor: pointer;
     transition: 0.3s;
-    color: #000000;
+    color: var(--black-text);
     border-radius:8px;
-    background-color: #F5F5F5;
+    background-color: var(--non-active-button);
   }
-  .pin {
-    
-    cursor: pointer;
-    position: relative;
-    left: -39vw;
-    top: calc(32px + 4vw);
-    border: 1px solid;
-    color: #000000;
-    border-color: #000000;
-    border-radius:50%;
-    background-color: #F5F5F5;
-  } 
   .App {
     height: 100vh;
     overflow-y: scroll;
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     gap:32px;
@@ -173,7 +163,7 @@
     font-family: "Inter", sans-serif;
     font-size: 6vw;
     font-weight: 600;
-    color: #292929;
+    color: var(--black-text);
   }
 
 
@@ -181,8 +171,8 @@
     width: 20px;
     height: 20px;
     border: 1px solid;
-    color: #000000;
-    border-color: #000000;
+    color: var(--black-text);
+    border-color: var(--black-text);
     border-radius:50%;
     position:absolute;
     top: 10px;
@@ -190,14 +180,14 @@
     gap:10px;
     
 }
-.App-textsmall2 {
+.App-textSmall2 {
     
   font: Inter;
   text-align: center;
   font-weight: 400;
   
   gap: Radius/M;
-  color: #292929;
+  color: var(--black-text);
   margin-top: 30px;
   margin-bottom: 10px;
   font-size: 12px;
