@@ -1,14 +1,21 @@
 *{
   --primary-color: #304299;
+  --primary-hover-color: #4D66C8;
+  --primary-disabled-color: #E7E7E9;
   --primary-active-color:#1A2B6D;
   --primary-ondrag-color:#1A2B6D;
   --secondary-color:#FFFFFF;
   --secondary-active-color:#F3F3F4;
   --secondary-ondrag-color:#F8F8F8;
+  --shaded-color:#EDF3FF;
+  --shaded-active-color:#DBE7FF;
+  --shaded-disabled-color:#F3F3F4;
   --border-color:#304299;
   --black-text:#292929;
+  --disabled-text:#B8B9C0;
   --non-active-button:#F5F5F5;
   --logo-second-color:#99CAFF;
+  --grey-color: #676767;
 }
 body {
   margin: 0;
@@ -28,3 +35,45 @@ font-family: 'Enthalpy298';
 src: url("./assets/Enthalpy.ttf");
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.H1{
+  font: Inter;
+  font-size: 32px;
+  font-weight: 600;
+}
+.H2{
+  font: Inter;
+  font-size: 24px;
+  font-weight: 600;
+}
+.H3{
+  font: Inter;
+  font-size: 20px;
+  font-weight: 600;
+}
+.H4{
+  font: Inter;
+  font-size: 16px;
+  font-weight: 600;
+}
+.Body{
+  font: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Body-small{
+  font: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+.Caption{
+  font: Inter;
+  font-size: 12px;
+  font-weight: 400;
+}
+.Caption-bold{
+  font: Inter;
+  font-size: 12px;
+  font-weight: 600;
+}

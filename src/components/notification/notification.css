@@ -1,0 +1,47 @@
+.notification{
+    width: 100%;
+    max-width: 344px;
+    transition: 0.3s;
+    border-bottom: 2px solid;
+    border-color:#F3F3F4;
+    
+}
+
+.aclass{
+    text-decoration: none;
+    color: var(--primary-color)
+}
+.description_cost{
+    cursor: pointer;
+    align-items: center; 
+    font: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--grey-color);
+    margin-bottom:10px;
+}
+.date{
+    align-items: left;  
+    font: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--grey-color);
+}
+.otclick_date{ 
+    margin-top: 10px;
+    margin-bottom:5px;
+    width: 344px;
+    align-items: center; 
+    justify-content: space-between; 
+    display: flex;
+    flex-direction:row;
+    cursor: pointer;
+}
+
+
+.large{
+    height: 100px;
+}
+.normal{
+    height: 60px;
+}
