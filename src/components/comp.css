@@ -1,0 +1,41 @@
+.buttonBig12 {
+    width: 50vw;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid;
+  } 
+.blue {
+    color: #304299;
+  }
+.light-blue {
+    color: #da1699;
+  }
+.light-blue {
+    color: #da1699;
+  }
+.dark-blue {
+    color: #da1699;
+  }
+
+
+  .primary {
+    color: #da1699;
+  }
+  .secondary {
+    color: #da1699;
+  }
+  .ghost {
+    color: #da1699;
+  }
+  .shaded {
+    color: #da1699;
+  }
+
+
+  .big {
+    height: 60px;
+  }
+  .small {
+    height: 30px;
+  }
