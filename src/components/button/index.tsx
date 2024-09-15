@@ -1,6 +1,6 @@
 
 import React from "react";
-import './comp1.css'
+import './styles.css'
 
 export  interface ButtonStandartIE{
     styles?:React.CSSProperties,

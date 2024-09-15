@@ -12,6 +12,7 @@
     color: var(--primary-color)
 }
 .description_cost{
+    
     cursor: pointer;
     align-items: center; 
     font: Inter;

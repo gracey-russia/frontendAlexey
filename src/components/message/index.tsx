@@ -1,7 +1,7 @@
 
 import React from "react";
 import './styles.css'
-import {ButtonStandart} from "../button/comp1";
+import {ButtonStandart} from "../button/index";
 
 export  interface messageIE{
     styles?:React.CSSProperties,
@@ -9,6 +9,7 @@ export  interface messageIE{
     text: string;
     time: string;
     incoming: true | false;
+    gracey: true | false;
     children?: React.ReactNode
 }
 export const Message:React.FC<messageIE> = (props) =>{
@@ -18,11 +19,20 @@ export const Message:React.FC<messageIE> = (props) =>{
 
 
     return <div>
-        {props.incoming?
-        <div className = 'incoming'><div className = 'temp'>{props.text}</div></div>
-        :    
-        <div className = 'outcoming'>{props.text}</div>
+        {props.gracey? 
+        <div className = 'grace_message'>
+            <div className = 'grace_tittle'>Грейси</div>
+            <div className = 'grace_text'>{props.text}</div>
+        <div className = 'grace_time'>13:20</div></div>
+        : 
+        props.incoming? 
+        <div className = 'incoming'><div>{props.text}</div><div className = 'time'>13:20</div></div>
+            :    
+            <div className = 'outcoming'><div>{props.text}</div><div className = 'time'>13:40</div></div>
+            
+
         }
+        
     </div>
 
 }

@@ -4,20 +4,18 @@
     flex-direction:column;
     cursor: pointer;
     align-items: center;
-    justify-content: center;
-    
     transition: 0.3s;
-    width: 100%;
+    
 }
 .text{
     border-radius: 16px;
     font-size: 16px;
     display: flex;
-    align-items: left;
-    justify-content: center;
+    align-items: center;
+    justify-content: left;
     cursor: pointer;
     transition: 0.3s;
-    width: 100%;
+    
     max-width: 375px;
 }
 .buttonew{
@@ -29,10 +27,7 @@
 .center_div{
     text-align: left;
     
-    display: flex;
-    flex-direction:column;
-    align-items: left;
-    justify-content: center;
+    
     cursor: pointer;
     transition: 0.3s;
 }

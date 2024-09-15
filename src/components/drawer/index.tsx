@@ -1,7 +1,7 @@
 
 import React from "react";
 import './styles.css'
-import {ButtonStandart} from "../button/comp1";
+import {ButtonStandart} from "../button/index";
 
 export  interface drawerIE{
     tittleBig?: string;

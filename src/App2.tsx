@@ -1,7 +1,6 @@
 
 import React, { useEffect, useState } from "react";
-import MyComponent  from "./components/comp";
-import {ButtonStandart} from "./components/button/comp1";
+import {ButtonStandart} from "./components/button/index";
 
 
 function App() {
