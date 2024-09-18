@@ -16,6 +16,7 @@ export const Message:React.FC<messageIE> = (props) =>{
     const onClick = () => {
         console.log('text')
     }
+    
 
 
     return <div>
@@ -32,7 +33,7 @@ export const Message:React.FC<messageIE> = (props) =>{
             
 
         }
-        
+        {props.children}
     </div>
 
 }

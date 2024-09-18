@@ -15,27 +15,28 @@ export  interface NotificationIE{
     onClick: ()=>void,
     children?: React.ReactNode
 }
-export const Notification:React.FC<NotificationIE> = (propsn) =>{
+export const Notification:React.FC<NotificationIE> = (props) =>{
     const onClick = () =>{
-        propsn.onClick()
+        props.onClick()
     }
+    
 
 
-    return <div className={'notification' + ' ' + (propsn.linkText == undefined? 'normal_notification': 'large_notification')}> 
+    return <div className={'notification' + ' ' + (props.linkText == undefined? 'normal_notification': 'large_notification')}> 
     <div className = 'otclick_date'>
-    {propsn.isNew?
-    <div className = 'H4'><img src='/dot.svg' alt="logo" /> {propsn.tittle}</div>
+    {props.isNew?
+    <div className = 'H4'><img src='/dot.svg' alt="logo" /> {props.tittle}</div>
     :
-    <div className = 'H4'>{propsn.tittle}</div>}
-    <div className = 'date'>{propsn.date}</div>
+    <div className = 'H4'>{props.tittle}</div>}
+    <div className = 'date'>{props.date}</div>
     </div>
-    {propsn.cost == undefined?
-        <div className = 'description_cost'>{propsn.description}</div>
+    {props.cost == undefined?
+        <div className = 'description_cost'>{props.description}</div>
     :
-    <div className = 'description_cost'>{propsn.description}, {propsn.cost + '₽'}</div>
+    <div className = 'description_cost'>{props.description}, {props.cost + '₽'}</div>
     }
-    <a href = {propsn.href} className = 'aclass'> {propsn.linkText}</a>
-
+    <a href = {props.href} className = 'aclass'> {props.linkText}</a>
+    {props.children}
     </div>
 
 }

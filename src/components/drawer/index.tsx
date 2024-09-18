@@ -23,6 +23,7 @@ export const Drawer:React.FC<drawerIE> = (props) =>{
         <div className = 'center_div'><div className = 'H4'>{props.tittleSmall}</div></div>
         <div className = 'center_div'><div className = 'text'>{props.description}</div></div>
         <div className ='buttonew'><Button onClick={()=>onClick()} size="large" type="primary">{props.buttonText}</Button></div>
+        {props.children}
     </div>
 
 }

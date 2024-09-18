@@ -34,6 +34,7 @@ export const InputPlace:React.FC<inputIE> = (props) =>{
         <div>{props.error_message}</div></div>
     }
         
+        {props.children}
         </div>
 
 }
