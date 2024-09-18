@@ -4,12 +4,12 @@ import './styles.css'
 import {ButtonStandart} from "../button/index";
 
 export  interface drawerIE{
-    tittleBig?: string;
-    tittleSmall?: string;
+    tittleBig: string;
+    tittleSmall: string;
     styles?:React.CSSProperties,
     className?:string,
-    description?: string;
-    buttonText?: string;
+    description: string;
+    buttonText: string;
     children?: React.ReactNode
 }
 export const Drawer:React.FC<drawerIE> = (props) =>{

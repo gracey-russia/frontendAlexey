@@ -16,6 +16,7 @@
   --non-active-button:#F5F5F5;
   --logo-second-color:#99CAFF;
   --grey-color: #676767;
+  --error-color: #D40E0E;
 }
 body {
   margin: 0;

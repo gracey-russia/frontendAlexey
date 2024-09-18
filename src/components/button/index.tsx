@@ -5,8 +5,8 @@ import './styles.css'
 export  interface ButtonStandartIE{
     styles?:React.CSSProperties,
     className?:string,
-    type?: 'primary'|'secondary'|'ghost'|'shaded',
-    size?: 'large'|'normal',
+    type: 'primary'|'secondary'|'ghost'|'shaded',
+    size: 'large'|'normal',
     onClick: ()=>void,
     children?: React.ReactNode
 }

@@ -21,7 +21,7 @@ export const Notification:React.FC<NotificationIE> = (propsn) =>{
     }
 
 
-    return <div className={'notification' + ' ' + (propsn.linkText == undefined? 'normal': 'large')}> 
+    return <div className={'notification' + ' ' + (propsn.linkText == undefined? 'normal_notification': 'large_notification')}> 
     <div className = 'otclick_date'>
     {propsn.isNew?
     <div className = 'H4'><img src='/dot.svg' alt="logo" /> {propsn.tittle}</div>
