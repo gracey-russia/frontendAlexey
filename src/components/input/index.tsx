@@ -8,7 +8,7 @@ export  interface inputIE{
     label: string;
     text: string;
     error_message?: string;
-    disabled?: true | false;
+    disabled?: boolean;
     children?: React.ReactNode
 }
 export const InputPlace:React.FC<inputIE> = (props) =>{

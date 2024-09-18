@@ -5,11 +5,13 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    max-width: 400px;
+    
+    
     transition: 0.3s;
 }
 
 .primary{
+    border: 2px solid;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border-color: var(--primary-color);
@@ -60,35 +62,37 @@
 
 }
 .ghost{
+    border: 2px solid;
+    border-color: var(--secondary-color);
     background-color: var(--secondary-color);
     color: var(--primary-color);
     
-    border-color: var(--primary-color);
 }
 
 .ghost:hover{
     background-color: var(--secondary-color);
     color: var( --primary-hover-color);
     
-    border-color: var( --primary-hover-color);
+    
 }
 .ghost:active{
     background-color: var(--secondary-color);
     color: var(--primary-active-color);
     
-    border-color: var(--primary-active-color);
+    
 
 }
 .ghost:disabled{
     background-color: var(--secondary-color);
     color: var(--disabled-text);
-    border-color: var(--primary-disabled-color);
+    
 
 }
 .shaded{
     background-color: var(--shaded-color);
     color: var(--black-text);
-    
+    border: 2px solid;
+    border-color: var(--shaded-color);
 }
 
 .shaded:hover{

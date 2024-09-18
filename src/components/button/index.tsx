@@ -2,7 +2,7 @@
 import React from "react";
 import './styles.css'
 
-export  interface ButtonStandartIE{
+export  interface ButtonIE{
     styles?:React.CSSProperties,
     className?:string,
     type: 'primary'|'secondary'|'ghost'|'shaded',
@@ -10,7 +10,7 @@ export  interface ButtonStandartIE{
     onClick: ()=>void,
     children?: React.ReactNode
 }
-export const ButtonStandart:React.FC<ButtonStandartIE> = (props) =>{
+export const Button:React.FC<ButtonIE> = (props) =>{
     const onClick = () =>{
         props.onClick()
     }

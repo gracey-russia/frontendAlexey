@@ -11,7 +11,7 @@ export  interface NotificationIE{
     date?: string;
     href?: string;
     linkText?: string;
-    isNew?: true | false; 
+    isNew?: boolean; 
     onClick: ()=>void,
     children?: React.ReactNode
 }

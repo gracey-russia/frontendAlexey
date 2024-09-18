@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from "react";
-import {ButtonStandart} from "./components/button/index";
+import {Button} from "./components/button/index";
 
 
 function App() {
@@ -9,10 +9,10 @@ function App() {
     }
   return (
     <div>
-        <ButtonStandart onClick={()=>onClick()} size="large" type="primary">Войти</ButtonStandart>
-        <ButtonStandart onClick={()=>onClick()} size="large" type="secondary">Войти</ButtonStandart>
-        <ButtonStandart onClick={()=>onClick()} size="large" type="ghost">Войти</ButtonStandart>
-        <ButtonStandart onClick={()=>onClick()} size="large" type="shaded">Войти</ButtonStandart>
+        <Button onClick={()=>onClick()} size="large" type="primary">Войти</Button>
+        <Button onClick={()=>onClick()} size="large" type="secondary">Войти</Button>
+        <Button onClick={()=>onClick()} size="large" type="ghost">Войти</Button>
+        <Button onClick={()=>onClick()} size="large" type="shaded">Войти</Button>
   </div>
 );
 }

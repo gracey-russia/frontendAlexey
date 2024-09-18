@@ -1,15 +1,15 @@
 
 import React from "react";
 import './styles.css'
-import {ButtonStandart} from "../button/index";
+import {Button} from "../button/index";
 
 export  interface messageIE{
     styles?:React.CSSProperties,
     className?:string,
     text: string;
     time: string;
-    incoming: true | false;
-    gracey: true | false;
+    incoming: boolean;
+    gracey: boolean;
     children?: React.ReactNode
 }
 export const Message:React.FC<messageIE> = (props) =>{
